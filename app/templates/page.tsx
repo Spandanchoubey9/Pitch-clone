@@ -165,8 +165,6 @@ export default function TemplatesPage() {
                   <SelectContent>
                     {categories.map((category) => (
                       <SelectItem key={category} value={category}>
-                        {category}  => (
-                      <SelectItem key={category} value={category}>
                         {category}
                       </SelectItem>
                     ))}
@@ -252,4 +250,5 @@ export default function TemplatesPage() {
     </div>
   )
 }
+
 
